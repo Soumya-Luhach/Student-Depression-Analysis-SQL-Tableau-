@@ -169,15 +169,6 @@ your instance uses a different server name.
 - The current dashboard focuses on record counts and does not directly encode
   the depression outcome in its marks.
 - The analysis is descriptive and does not control for confounding variables.
-
-## Suggested Enhancements
-
-- Add KPI cards for total students and the recorded depression rate.
-- Add the depression outcome as a colour, filter, or side-by-side comparison in
-  the existing charts.
-- Publish the dashboard to Tableau Public and add the interactive link here.
-- Export a high-resolution dashboard image and place it near the top of this
-  README.
 - Document the dataset source and licence.
 
 ## Author
