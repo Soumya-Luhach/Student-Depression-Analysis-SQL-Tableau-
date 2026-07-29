@@ -26,8 +26,8 @@
     <datasource caption='Student Depression Dataset (student_depression_analysis)' inline='true' name='federated.1v21rwf0zzcf9715wzz2w041nm4z' version='18.1'>
       <connection class='federated'>
         <named-connections>
-          <named-connection caption='DESKTOP-7J5U12C' name='sqlserver.06r5znz1oakh4x1066ajq1msukng'>
-            <connection application-intent='false' authentication='sspi' class='sqlserver' dbname='student_depression_analysis' multi-subnet-failover='false' odbc-native-protocol='yes' one-time-sql='' server='DESKTOP-7J5U12C' />
+          <named-connection caption='Local SQL Server' name='sqlserver.06r5znz1oakh4x1066ajq1msukng'>
+            <connection application-intent='false' authentication='sspi' class='sqlserver' dbname='student_depression_analysis' multi-subnet-failover='false' odbc-native-protocol='yes' one-time-sql='' server='localhost' />
           </named-connection>
         </named-connections>
         <relation connection='sqlserver.06r5znz1oakh4x1066ajq1msukng' name='Student Depression Dataset' table='[dbo].[Student Depression Dataset]' type='table' />
