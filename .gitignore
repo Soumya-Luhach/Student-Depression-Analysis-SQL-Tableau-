@@ -1,0 +1,13 @@
+# SQL Server database and backup files
+*.bak
+*.mdf
+*.ldf
+
+# Tableau temporary files
+~*.twb
+*.tmp
+
+# Operating-system files
+Thumbs.db
+.DS_Store
+
